@@ -61,6 +61,8 @@
     <Folder Include="Schema\production" />
     <Folder Include="Schema\production\tables" />
     <Folder Include="Schema\sales\tables" />
+    <Folder Include="Programmability" />
+    <Folder Include="Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\production\production.sql" />
@@ -74,5 +76,6 @@
     <Build Include="Schema\sales\tables\orders.sql" />
     <Build Include="Schema\sales\tables\order_items.sql" />
     <Build Include="Schema\production\tables\stocks.sql" />
+    <Build Include="Programmability\Stored Procedures\sp_getBrands.sql" />
   </ItemGroup>
 </Project>
