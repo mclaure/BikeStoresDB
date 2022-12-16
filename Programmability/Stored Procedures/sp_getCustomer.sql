@@ -2,8 +2,7 @@
 AS
 BEGIN
 SELECT [customer_id]
-      ,[first_name]
-      ,[last_name]
+      ,customerName = [first_name]+' '+[last_name]
       ,[phone]
       ,[email]
       ,[street]
