@@ -80,5 +80,6 @@
     <Build Include="Programmability\Stored Procedures\sp_getBrands.sql" />
     <Build Include="Programmability\Stored Procedures\sp_GetCategories.sql" />
     <Build Include="Programmability\Functions\fn_GetDate.sql" />
+    <Build Include="Programmability\Stored Procedures\sp_getCustomer.sql" />
   </ItemGroup>
 </Project>
